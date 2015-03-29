@@ -1,0 +1,5 @@
+color fruity
+"set relativenumber
+map <leader>h :nohlsearch<cr>
+Plugin 'christoomey/vim-tmux-navigator'
+Plugin 'rking/ag.vim'
