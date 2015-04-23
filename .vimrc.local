@@ -8,3 +8,9 @@ Bundle 'chrisgillis/vim-bootstrap3-snippets'
 autocmd FileType coffee nmap <buffer> <F5> :!coffee %<cr>
 autocmd FileType ruby nmap <buffer> <F5> :!ruby %<cr>
 autocmd BufRead,BufNewFile *.html.erb set filetype=html
+
+
+"For code format"
+set tabstop=4
+set shiftwidth=4
+set expandtab
