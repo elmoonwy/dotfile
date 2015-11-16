@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/home/yuwang/.oh-my-zsh
+export ZSH=/home/yu.wang/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -50,7 +50,7 @@ plugins=(git)
 
 # User configuration
 
-export PATH="/home/yuwang/.rvm/gems/ruby-2.2.0/bin:/home/yuwang/.rvm/gems/ruby-2.2.0@global/bin:/home/yuwang/.rvm/rubies/ruby-2.2.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/yuwang/.rvm/bin:/home/yuwang/.rvm/bin"
+export PATH="/home/yu.wang/.rvm/gems/ruby-2.2.0/bin:/home/yuwang/.rvm/gems/ruby-2.2.0@global/bin:/home/yuwang/.rvm/rubies/ruby-2.2.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/yu.wang/.rvm/bin:/home/yu.wang/.rvm/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
@@ -83,3 +83,5 @@ source $ZSH/oh-my-zsh.sh
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 plugins=(git vi-mode)
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
