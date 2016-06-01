@@ -1,0 +1,3 @@
+alias dev="git checkout dev"
+alias xc="open Client/AdminTools/AdminTools.xcworkspace"
+alias gs="git status"

@@ -85,3 +85,6 @@ source $ZSH/oh-my-zsh.sh
 plugins=(git vi-mode)
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+
+# read alias file
+source $HOME/.aliases
