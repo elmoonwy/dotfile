@@ -10,8 +10,9 @@
     - Copy mackup.cfg file from dropbox into home directory
     - mackup restore
     - vi -> PluginInstall
-7. Clone [dot_file](https://github.com/elmoonwy/dotfile)
-    - copy `.vimrc.local` into home directory
+7. Link [dot file](https://github.com/elmoonwy/dotfile)
+    - Link config file to your local
+        - e.g. ln -s AB_PATH_TO_CONFIG ./.tmux.config
     - vi -> PluginInstall
 8. Setup Git
     - generate [Publish Key](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
