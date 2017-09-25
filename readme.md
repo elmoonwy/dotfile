@@ -17,3 +17,5 @@
 8. Setup Git
     - generate [Publish Key](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
     - git config --global core.editor /usr/bin/vim
+9. Sublime
+    - ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
