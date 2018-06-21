@@ -8,14 +8,16 @@ set expandtab
 set ignorecase
 set wrap
 
-color ir_black
+color molokai
 map <leader>h :nohlsearch<cr>
 Plugin 'christoomey/vim-tmux-navigator'
 Plugin 'rking/ag.vim'
+Plugin 'aperezdc/vim-template'
 Bundle 'chrisgillis/vim-bootstrap3-snippets'
 
 "Use for run script
 autocmd FileType coffee nmap <buffer> <F5> :!coffee %<cr>
 autocmd FileType ruby nmap <buffer> <F5> :!ruby %<cr>
+autocmd FileType python nmap <buffer> <F5> :!python %<cr>
 autocmd BufRead,BufNewFile *.html.erb set filetype=html
 
