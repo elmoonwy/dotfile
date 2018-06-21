@@ -10,14 +10,39 @@ set wrap
 
 color molokai
 map <leader>h :nohlsearch<cr>
+nmap <F5> :CtrlPClearCache<cr>
 Plugin 'christoomey/vim-tmux-navigator'
 Plugin 'rking/ag.vim'
 Plugin 'aperezdc/vim-template'
 Bundle 'chrisgillis/vim-bootstrap3-snippets'
+
+"For SLIM
+Bundle 'slim-template/vim-slim.git'
+syntax enable
+filetype plugin indent on
 
 "Use for run script
 autocmd FileType coffee nmap <buffer> <F5> :!coffee %<cr>
 autocmd FileType ruby nmap <buffer> <F5> :!ruby %<cr>
 autocmd FileType python nmap <buffer> <F5> :!python %<cr>
 autocmd BufRead,BufNewFile *.html.erb set filetype=html
+autocmd BufRead,BufNewFile *.slim set filetype=slim
 
+"For code format"
+set foldmethod=indent
+set tabstop=4
+set shiftwidth=4
+set expandtab
+set ignorecase
+set wrap
+
+" For speed
+UnBundle 'spf13/PIV'
+let g:spf13_use_powerline = 1
+let g:spf13_use_old_powerline = 1
+set nu
+set norelativenumber
+set nocursorline
+
+" For Git "
+autocmd Filetype gitcommit setlocal spell textwidth=72
